@@ -36,7 +36,6 @@ configMapGenerator:
   name: hbase-env
 - literals:
   - HTTPFS_TEMP=/mnt/tmp
-  - HADOOP_LOG_DIR=/mnt/log
   # for Hadoop 2.x
   - HTTPFS_LOG=/mnt/log
   - HTTPFS_SILENT=false
